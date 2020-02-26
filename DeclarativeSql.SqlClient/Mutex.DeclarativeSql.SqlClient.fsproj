@@ -1,0 +1,48 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Company>Mutex Oy</Company>
+    <Authors>Jarmo Muukka, Mutex Oy</Authors>
+    <Version>0.1</Version>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <Copyright>Copyright (c) Mutex Oy 2020</Copyright>
+    <RepositoryUrl>https://github.com/jmuukka/declarative-sql-sqlclient</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/jmuukka/declarative-sql-sqlclient</PackageProjectUrl>
+    <PackageTags>F# fsharp SQL</PackageTags>
+    <Product>DeclarativeSql</Product>
+    <Description>You used Mutex.DeclarativeSql package to define your SQL in declarative way. Use this package to execute the commands in SQL Server.</Description>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <WarningLevel>5</WarningLevel>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <WarningLevel>5</WarningLevel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md" />
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Types.fs" />
+    <Compile Include="Sql.fsi" />
+    <Compile Include="Sql.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Mutex.DeclarativeSql" Version="0.1.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.1" />
+  </ItemGroup>
+
+</Project>

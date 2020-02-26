@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Mutex.DeclarativeSql.SqlClient", "DeclarativeSql.SqlClient\Mutex.DeclarativeSql.SqlClient.fsproj", "{3F44D3EC-CCE9-45FE-965D-FCA26894F809}"
+EndProject
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Mutex.DeclarativeSql.SqlClient.Tests", "DeclarativeSql.SqlClient.Tests\Mutex.DeclarativeSql.SqlClient.Tests.fsproj", "{13415735-322F-4EFF-B531-AB0EB7E00094}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F44D3EC-CCE9-45FE-965D-FCA26894F809}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F44D3EC-CCE9-45FE-965D-FCA26894F809}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F44D3EC-CCE9-45FE-965D-FCA26894F809}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F44D3EC-CCE9-45FE-965D-FCA26894F809}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13415735-322F-4EFF-B531-AB0EB7E00094}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13415735-322F-4EFF-B531-AB0EB7E00094}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13415735-322F-4EFF-B531-AB0EB7E00094}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13415735-322F-4EFF-B531-AB0EB7E00094}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {888BAE6F-6959-4725-9B56-BB7542AEB89F}
+	EndGlobalSection
+EndGlobal
