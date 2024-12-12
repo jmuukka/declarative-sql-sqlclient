@@ -4,7 +4,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <Company>Mutex Oy</Company>
     <Authors>Jarmo Muukka, Mutex Oy</Authors>
-    <Version>0.2</Version>
+    <Version>0.2.1</Version>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <Copyright>Copyright (c) Mutex Oy 2020</Copyright>
     <RepositoryUrl>https://github.com/jmuukka/declarative-sql-sqlclient</RepositoryUrl>
@@ -45,7 +45,7 @@
 
   <ItemGroup>
     <PackageReference Include="Mutex.DeclarativeSql" Version="0.5.0" />
-    <PackageReference Include="System.Data.SqlClient" Version="4.8.1" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.9.0" />
   </ItemGroup>
 
 </Project>

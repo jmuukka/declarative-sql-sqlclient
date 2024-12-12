@@ -52,8 +52,8 @@ let ``executeReadArray should return rows (assume that we have data in the datab
     match result with
     | Ok rows ->
         Assert.True(rows.Length > 0)
-    | Error _ ->
-        failwith "Why?"
+    | Error ex ->
+        failwithf "%A" ex
 
 [<Fact>]
 let ``when server is not found then returns Error exn Result`` () =
